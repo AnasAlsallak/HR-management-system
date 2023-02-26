@@ -24,16 +24,16 @@ return basicSalary - basicSalary * 0.075;
 };
 
 Employee.prototype.render = function () {
-    document.write(`${this.fullName} | ${this.salary} <br/>`)
+    document.write(`Full name: ${this.fullName} ___ Net Salary: ${this.salary} <br/>`)
 }
 
-let Ghazi = new Employee (1000,"Ghazi Samer","Administration","Senior","/assets/client2-free-img.png");
-let Lana = new Employee (1001,"Lana Ali","Finance","Senior","/assets/client1-free-img.png");
-let Tamara = new Employee (1002,"Tamara Ayoub","Marketing","Senior");
-let Safi = new Employee (1003,"Safi Walid","Administration","Mid-Senior");
-let Omar = new Employee (1004,"Omar Zaid","Development","Senior");
-let Rana = new Employee (1005,"Rana Saleh","Development","Junior");
-let Hadi = new Employee (1006,"Hadi Ahmad","Finance","Mid-Senior");
+let Ghazi = new Employee (1000,"Ghazi Samer","Administration","Senior","/assets/client2-free-img.jpg");
+let Lana = new Employee (1001,"Lana Ali","Finance","Senior","/assets/client1-free-img.jpg");
+let Tamara = new Employee (1002,"Tamara Ayoub","Marketing","Senior","/assets/client3-free-img.jpg");
+let Safi = new Employee (1003,"Safi Walid","Administration","Mid-Senior","/assets/client4-free-img.jpg");
+let Omar = new Employee (1004,"Omar Zaid","Development","Senior","/assets/client2-free-img.jpg");
+let Rana = new Employee (1005,"Rana Saleh","Development","Junior","/assets/client1-free-img.jpg");
+let Hadi = new Employee (1006,"Hadi Ahmad","Finance","Mid-Senior","/assets/client4-free-img.jpg");
 
 
 Ghazi.render();

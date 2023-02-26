@@ -3,6 +3,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-image: url("/assets/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -35,6 +40,12 @@ nav a {
 main {
     flex-grow: 1;
     padding: 2em;
+}
+
+.info {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 3px;
 }
 
 footer {
