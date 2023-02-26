@@ -11,8 +11,6 @@ I have created two HTML pages index.html and accounting.html for a basic web app
 
 ## The Home page
 
-___
-
 The **Home** page (index.html) which contains the following:
 
 **1.** A header section for navigating to the home and accounting pages.
@@ -149,8 +147,6 @@ I used the information shown in the **table** below to create employees instance
 </html> </br> </br>
 
 ## The **Accounting** page
-
-___
 
 The **Accounting** page includes the following:
 1. A header for navigating to any other pages.
