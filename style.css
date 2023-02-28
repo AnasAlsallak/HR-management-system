@@ -3,12 +3,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background-image: url("./assets/background.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+
+/* navigation bar design */
 
 nav {
     background-color: rgb(30, 209, 233);
@@ -16,16 +13,16 @@ nav {
 }
 
 nav ul {
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
     gap: 1em;
     font-size: 2rem;
 }
 
 nav ul li {
-    padding: .2em;
+    padding: 1em;
 }
 
 nav ul li:hover {
@@ -37,23 +34,74 @@ nav a {
     text-decoration: none;
 }
 
+/* website logo */
+
+#logo {
+    background-color:rgb(30, 209, 233);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 main {
     flex-grow: 1;
     padding: 2em;
 }
 
-.info {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 30px;
-  border-radius: 3px;
+/* form design */
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    box-sizing: border-box;
 }
+
+button[type=submit] {
+    background-color:rgb(30, 209, 233);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+button[type=submit]:hover {
+    background-color: #ace9e6;
+}
+
+.textAlignment {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* employee card design */
+
+.cardDiv {
+    width: 30%;
+    margin-top: 5%;
+    background-color: rgb(30, 209, 233);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.cardDiv img {
+    width: 50%
+}
+
+/* footer design */
 
 footer {
     background-color: rgb(30, 209, 233);
     font-size: .75em;
 }
 
-.textAlignment {
-    vertical-align: middle;
-    text-align: center;
+.socialMedia { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 }
