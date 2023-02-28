@@ -16,20 +16,19 @@ I added a form with the following fields:
         - Image URL
         - Submit button
 
-2. At the JS code 
+2. At the **JS code**. 
     - I created a function to generate a unique four digits employee ID number.
     - I added an event listener to get the data from the form instead of having a hard coded data.
 
-    - I refactored the render prototype function to render each employee information in a separate card in the home page as shown below.
+    - I refactored the render prototype function to render each employee information in a separate card in the home page as shown below. <br>
+![ecard](assets/ecard.JPG)
 
+3. At the **CSS Style Sheet**. 
+    - I added some style for the header and the footer
+    - I Used flex to organize the content of the main content.
+    - I added backgrounds and some additional style.
+    - I used a suitable color palette for your website. 
+    - Made it more creative and professional.
 
-
-3. At the CSS Style 
-Add some style for the header and the footer
-Use flex to organize the content of the main content.
-Add backgrounds, font colors, google fonts and any additional style.
-Use a suitable color palette for your website. You can use ColorHunt .
-Note: Be creative and make your page professional.
-
-Stretch goal
-Separate the employees cards by their department where you will have a separate section for each department.
+4. Finally.
+    - I separated the employees cards by their department where you will have a separate section for each department.
