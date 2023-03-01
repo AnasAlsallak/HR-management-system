@@ -1,35 +1,13 @@
 # HR-management-system
 
-1. At the **Home** HTML page
-I added a form with the following fields:
+1. For the **Home** HTML Page
+    - I modified on the JS code to save all the employees in the Local Storage so when I refresh the page I will not lose my old data.
 
-    - Full name.
-    - Department with following options:
-        - Administration
-        - Marketing
-        - Development
-        - Finance
-    - Level with following options:
-        - Junior
-        - Mid-Senior
-        - Senior
-        - Image URL
-        - Submit button
-
-2. At the JS code 
-    - I created a function to generate a unique four digits employee ID number.
-    - I added an event listener to get the data from the form instead of having a hard coded data.
-
-    - I refactored the render prototype function to render each employee information in a separate card in the home page as shown below.
-
-
-
-3. At the CSS Style 
-Add some style for the header and the footer
-Use flex to organize the content of the main content.
-Add backgrounds, font colors, google fonts and any additional style.
-Use a suitable color palette for your website. You can use ColorHunt .
-Note: Be creative and make your page professional.
-
-Stretch goal
-Separate the employees cards by their department where you will have a separate section for each department.
+2. For the **Accounting** HTML Page
+    - I created a new JS file called accounting.js to use it in this page.
+    - Render each department information in a table in the following form:
+        - Department Name.
+        - Number of employees in each department.
+        - Average salary of the department.
+        - Total salary Where average salary is the summation of salaries for all employees in each department divided by the number of the employees in that department and total salary is the summation of salaries for all employees in each department.
+        - Added a table footer which will have the total number of employees, the average salary for all departments and the total salary for all departments.
